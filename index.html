@@ -39,6 +39,7 @@ I could scarcely believe my eyes, amazed at the speed,</h1>
     </div>
     <h2 id="impact">impact</h2>
     <video src="foryou.mp4"muted autoplay loop class="video-3"></video>
+    <video src="shoot-2.mp4"muted autoplay loop class="video-5"></video>
 
 
     <footer id="contact">
@@ -63,6 +64,16 @@ Like morning dew kissed by the sun.
     opacity: 0;
     animation: fadeIn 2.5s ease forwards;
 }
+.intro-video video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block; /* 余白対策 */
+}
+.video-5{
+    width:100%;
+    margin-top: 40px;
+}
 
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -83,7 +94,7 @@ Like morning dew kissed by the sun.
      }
      .head{
          position: fixed;
-        top: 8%;
+        top: 12%;
         left: 50%;
         transform: translate(-50%, -50%);
         display: flex;
